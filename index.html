@@ -1,0 +1,173 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/85f7457f2c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- ---------------------------Header---------------------------------------------  -->
+    <div class="background">
+        <div class="navbar">
+            <nav>
+                <div class="logo"><span>T</span>arun</div>
+                
+                <ul>
+                    <li style="color: #000;"><a href="">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="text">
+                <p>Product Design</p>
+                <h1>Hi, I'm <span>Tamada Tarun</span><br>from <span>Gitam University</span></h1>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------------------------About----------------------------------- -->
+    <div class="about" id="about">
+        <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="tarun1.jpg" alt="" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About Me</h1>
+                <p>As a BTech 3rd year student, my expertise lies in Machine Learning and Front-end Development. I am skilled in machine learning, front-end development, Python, SQL, and more. These skills enable me to analyze complex data, develop innovative solutions, create user-friendly interfaces, and work with diverse technologies and databases. I am adaptable and eager to learn new tools and frameworks, positioning me as a versatile and dynamic professional. With a keen eye for detail and a passion for innovation, I am well-prepared to make a significant impact in the tech industry..</p>
+                <div class="titles">
+                    <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Machine Learning</span><br>researching, building, and designing the artificial intelligence responsible for machine learning and maintaining and improving existing artificial intelligence systems</li>
+                        <li><span>Front-End Development</span><br>Front-end Development using React and Vanilla JavaScript</li>
+                        <li><span>SQL</span><br> develop SQL databases and write the applications that interface with them</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023-Current</span><br>The Art of Living Volunteer</li>
+                        <li><span>2024 Jan-March</span><br>CodSoft Technologies</li>
+                        <li><span>2024 Feb-March</span><br>Coding Raja Technologies</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2025</span><br>Computer Science Engineering ,<br>Gitam University.</li>
+                        <li><span>2019-2021</span><br>Kendriya Vidyalaya</li>
+                        <li><span>2018</span><br>Kendriya Vidyalaya</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+<!-- ----------------------------------------Services------------------------------------ -->
+    <div class="services" id="services">
+        <div class="contianer">
+            <h1>My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <h1>Front-end</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, explicabo a aspernatur.<br>Aperiam omnis animi, vitae quasi necessitatibus culpa.</p>
+                    <a href="">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <h1>Machine Learning</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, explicabo a aspernatur.<br>Aperiam omnis animi, vitae quasi necessitatibus culpa.</p>
+                    <a href="">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-eye-slash"></i>
+                    <h1>The Art of Living</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, explicabo a aspernatur.<br>Aperiam omnis animi, vitae quasi necessitatibus culpa.</p>
+                    <a href="">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ------------------------------------Portfolio------------------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle" >My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Sentiment Analysis</h3>
+                        <p>I completed a project on Sentiment Analysis in CodingRaja Technologies</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Python Projects</h3>
+                        <p>Completed multiple projects using python in Codsoft Technologies</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Events</h3>
+                        <p>Organised South India's Largest Youth Meet,EDUYOUTH Meet</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+<!-- -------------------------------Contact Us------------------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i></i>taruntamada19@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9668498313</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your E-mail" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div> 
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Tarun</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
